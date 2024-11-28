@@ -1,0 +1,119 @@
+@media (max-width: 1080px){
+    .agenda_eventos{
+        display: flex;
+        flex-direction: column !important;
+        max-width: 90%;
+    }
+
+    .agenda_eventos_1{
+        max-width: 95%;
+    }
+} 
+
+
+
+.agenda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px
+}
+
+.agenda_titulo{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px;
+    filter: drop-shadow(0px 3px 5px black)
+}
+
+.agenda_subtitulo{
+    display: flex;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px black;
+}
+
+.agenda_foto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.agenda_foto_link{
+    width: 100%;
+    max-width: 390px;
+    min-height: 500px;
+    box-shadow: 0 0px 10px white;
+    border-radius: 36px;
+    transition: all 1s ease;
+}
+
+.agenda_foto_link:hover{
+    transform: scale(1.05)
+}
+
+.agenda_evento_link{
+    width: 100%;
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.agenda_eventos{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 50px;
+    transition: all 1s ease;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.agenda_eventos:hover{
+    gap: 40px
+}
+
+.agenda_descricao{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+
+.agenda_eventos_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    transition: all 1s ease;
+    min-height: 500px;
+}
+
+.agenda_eventos_1:hover{
+    gap: 15px
+}
+
+.agenda_subtitulo_descricao{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+}
+
+.agenda_descricao_texto{
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: 500;
+}
+
